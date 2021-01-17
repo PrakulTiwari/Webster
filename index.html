@@ -292,16 +292,16 @@
 
         // body.style.height = Math.floor(height) + "px";
 
-        function smoothScroll() {
-            offset += (window.pageYOffset - offset) * speed;
+        // function smoothScroll() {
+        //     offset += (window.pageYOffset - offset) * speed;
 
-            var scroll = "translateY(-" + offset + "px) translateZ(0)";
-            scrollWrap.style.transform = scroll;
+        //     var scroll = "translateY(-" + offset + "px) translateZ(0)";
+        //     scrollWrap.style.transform = scroll;
 
-            callScroll = requestAnimationFrame(smoothScroll);
-        }
+        //     callScroll = requestAnimationFrame(smoothScroll);
+        // }
 
-        smoothScroll();
+        // smoothScroll();
 
         $(function () {
             var elements = $(".text2, .img2").toArray();
