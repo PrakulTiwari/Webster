@@ -1,4 +1,5 @@
 @import url(//db.onlinewebfonts.com/c/5a7f8e143dbda0b26952bc287ad05cc4?family=Monument+Extended);
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
 .smooth-scroll-wrapper2{
     margin: 0;
@@ -28,8 +29,8 @@
 }
 
 .smooth-scroll-wrapper2 .content2 .container2 p {
-    font-family: "Monument Extented";
-    font-size: 40px;
+    font-family: "Poppins";
+    font-size: 25px;
     color: #fff;
 }
 
