@@ -1,0 +1,93 @@
+.container .menu .menu-item .wrapper1 .navbar1 {
+    /* box-sizing: border-box; */
+    position: fixed;
+    width: 6%;
+    height: 70px;
+    /* height: 100vh; */
+    /* background: #a72929; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2.4px solid #fff;
+    margin: 0 20vw;
+    z-index: 100;
+}
+
+.container .menu .menu-item .wrapper1 .navbar1 .nav-toggle1 {
+    cursor: pointer;
+    /* transform: rotate(-90deg); */
+    font-family: "Monument Extended";
+    color:black;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.container .menu .menu-item .container1 .nav1 {
+    position: fixed;
+    z-index: 100;
+    width: 0%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    /* left: 6%; */
+    background:black;
+}
+
+.container .menu .menu-item .container1 .nav1 .nav-items1 {
+    margin: 0 60px;
+    padding-top: 0px;
+    z-index: 100;
+}
+
+.container .menu .menu-item .container1 .nav1 .nav-items1 .nav-item1 {
+    position: relative;
+    font-size: 120px;
+    z-index: 100;
+}
+
+.container .menu .menu-item .container1 .nav1 .nav-items1 .nav-item1 a {
+    position: relative;
+    top: 140px;
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-family: "Monument Extended";
+    font-size: 100px;
+    /* margin: 100px 0; */
+    font-weight: lighter;
+    letter-spacing: -8px;
+    z-index: 100;
+    transition: 1s;
+}
+
+.container .menu .menu-item .container1 .nav1 .nav-items1 .nav-item1 .nav-item-wrapper1:after {
+    content: "";
+    position: absolute;
+    top: 140px;
+    left: 0;
+    width: 110%;
+    height: 100%;
+    background:black;
+    margin: 0 auto;
+    z-index: 100;
+    transition: 1s;
+}
+
+.container .menu .menu-item .container1 .nav1 .nav-items1 .nav-item1:after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 0%;
+    height: 2.8px;
+    background: #fff;
+    z-index: 100;
+    transition: 0.3s;
+}
+
+.container .menu .menu-item .container1 .nav1 .nav-items1 .nav-item1:hover:after {
+    width: 100%;
+    z-index: 100;
+}
